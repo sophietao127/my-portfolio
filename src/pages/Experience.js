@@ -11,6 +11,7 @@ function Experience() {
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='2016 - 2018'
+          contentStyle={{ background: '#edd7e5'}}
           iconStyle={{background: "#502f64", color: '#fff'}}
           icon={<SchoolIcon />}
         >
@@ -26,6 +27,7 @@ function Experience() {
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='2018 - 2020'
+          contentStyle={{ background: '#edd7e5'}}
           iconStyle={{background: "#502f64", color: '#fff'}}
           icon={<SchoolIcon />}
         >
@@ -41,6 +43,7 @@ function Experience() {
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='2016 - 2018'
+          contentStyle={{ background: '#edd7e5'}}
           iconStyle={{background: "#502f64", color: '#fff'}}
           icon={<WorkIcon />}
         >
@@ -53,6 +56,7 @@ function Experience() {
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='2021 - 2023'
+          contentStyle={{ background: '#edd7e5'}}
           iconStyle={{background: "#502f64", color: '#fff'}}
           icon={<SchoolIcon />}
         >

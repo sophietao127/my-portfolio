@@ -17,6 +17,10 @@
   cursor: pointer;
 }
 
+button {
+  opacity: 1.0;
+}
+
 .footer p {
   color: white;
 }

@@ -8,11 +8,17 @@ function Footer() {
   return (
     <div className='footer'>
       <div className='socialMedia'>
-        <EmailIcon />
-        <LinkedInIcon />
-        <GitHubIcon />
+        <a href="mailto:sophietao127@gmail.com">
+          <EmailIcon />
+        </a>
+        <a href='http://www.linkedin.com/in/sophie-tao'>
+          <LinkedInIcon />
+        </a>
+        <a href='https://github.com/sophietao127'>
+          <GitHubIcon />
+        </a>
       </div>
-      <p> &copy; 2022 sophietao.com</p>
+      <p> &copy; 2022 sophietao.net</p>
     </div>
   )
 }

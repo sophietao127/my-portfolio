@@ -21,17 +21,36 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 80px;
   color: #a780bd;
-  height: 50px;
+  margin-top: 10px;
+  height: 60px;
 }
 
 .about .prompt {
   width: 40%;
   font-size: 30px;
 }
+
+.prompt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prompt p {
+  width: 450px;
+}
+
 .prompt svg {
   font-size: 60px;
   margin: 5px;
   color: white;
+}
+
+.prompt img {
+  width: fit-content;
+  height: 300px;
+  margin: 10px;
+  margin-left: 30px;
 }
 
 .skills {

@@ -1,5 +1,6 @@
 import React from 'react';
 import "../styles/Home.css";
+import myself from '../assets/me.jpg';
 
 function Home() {
   return (
@@ -7,7 +8,10 @@ function Home() {
       <div className='about'>
         <h2> Hi, My Name is Sophie! </h2>
         <div className='prompt'>
-          <p> A software developer with a passion for learning and creating.</p>
+          <div>
+            <p> A student with a passion for learning and creating.</p>
+          </div>
+          <img src={myself} alt='myself'/>
         </div>
       </div>
       <div className='skills'>
