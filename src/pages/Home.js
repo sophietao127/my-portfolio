@@ -15,11 +15,11 @@ function Home() {
         <ol className='list'>
           <li className='item'>
             <h2> Front-End </h2>
-            <span> HTML, CSS, BootStrap, NPM, MaterialUI, ReactJS </span>
+            <span> HTML, CSS, BootStrap, NPM, MaterialUI, ReactJS, JQuery </span>
           </li>
           <li className='item'>
             <h2> Back-End </h2>
-            <span> NodeJS, MySQL, ExpressJS, Flask, AWS EC2 </span>
+            <span> NodeJS, ExpressJS, Flask, MySQL, PostgreSQL, SQLite, AWS, Linux, Git, Docker </span>
           </li>
           <li className='item'>
             <h2> Languages </h2>

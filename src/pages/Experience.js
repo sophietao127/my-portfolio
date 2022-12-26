@@ -15,14 +15,17 @@ function Experience() {
           icon={<SchoolIcon />}
         >
           <h3 className='vertical-timeline-element-title'>
-            My Random High School, Random Place, Random State
+            Xi'an Jiaotong-Liverpool University, Suzhou, China
           </h3>
-          <p> High School Diploma </p>
+          <h4 className='vertical-timeline-element-subtitle'>
+            Bachelor's Degree
+          </h4>
+          <p> Electrical and Electronic Engineering </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
-          date='2016 - 2018'
+          date='2018 - 2020'
           iconStyle={{background: "#502f64", color: '#fff'}}
           icon={<SchoolIcon />}
         >
@@ -32,7 +35,7 @@ function Experience() {
           <h4 className='vertical-timeline-element-subtitle'>
             Bachelor's Degree
           </h4>
-          <p> Electrical Engineering - Telecommuncation </p>
+          <p> Electrical and Electronic Engineering </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -49,7 +52,7 @@ function Experience() {
 
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
-          date='2016 - 2018'
+          date='2021 - 2023'
           iconStyle={{background: "#502f64", color: '#fff'}}
           icon={<SchoolIcon />}
         >
