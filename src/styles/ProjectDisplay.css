@@ -1,6 +1,7 @@
 .project {
   width: 100%;
-  height: calc(100vh - 100px);
+  /* height: calc(100vh - 100px); */
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,4 +27,21 @@
 .project svg {
   font-size: 60px;
   color: #502f64;;
+}
+
+.pdf {
+  width: 600px;
+  height: 100vh;
+  text-align: center;
+  margin: auto;
+}
+
+.pdf p {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.hidden {
+  display: none;
 }

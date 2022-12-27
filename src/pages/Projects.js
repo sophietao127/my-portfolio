@@ -4,6 +4,7 @@ import { projectList } from '../helpers/ProjectList';
 
 
 import "../styles/Project.css";
+// {posts.map((post, index) => <Post details={post} key={index} />)}
 
 function Projects() {
   return (
@@ -11,11 +12,17 @@ function Projects() {
       <h1> My Personal Projects </h1>
       <div className='projectList'>
         {projectList.map((project, idx) => {
-          return <ProjectItem id={idx} name={project.name} image={project.image} time={project.time} skills={project.skills}/>;
+          return <ProjectItem
+                    id={idx}
+                    name={project.name}
+                    image={project.image}
+                    time={project.time}
+                    skills={project.skills}
+                  />;
         })}
       </div>
     </div>
   );
-}
+};
 
 export default Projects;
