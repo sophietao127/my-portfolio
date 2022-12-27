@@ -69,7 +69,7 @@ function Home() {
                 My favorite movie is <a href='https://en.wikipedia.org/wiki/Howl%27s_Moving_Castle_(film)'>Howl's Moving Castle</a>.
                 I admire the female heroine Sophie Hatter. She is full of bravery and wisdom.
                 The theme song of this movie is wondeful (Merry go round of Life), created by Joe Hisaishi. I really like this <a href='https://youtu.be/J6qIzKxmW8Y'>version</a> on Youtube!
-                cover by Grissini Project.
+                Cover by Grissini Project.
               </li>
             </ul>
           </div>
