@@ -60,26 +60,34 @@
   text-align: center;
 }
 
-.skills .courses {
-  font-size: 35px;
-  width: 100%;
+.skills, .courses  {
+  font-size: 30px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  border-style: solid;
+  border-color: #502f64;
+  border-width: 50px 100px;
+  padding: 10px;
 }
+
 
 .skills h1, .list, .courses {
   color: #502f64;
+  margin: 0px;
 }
 
-.skills .list {
+.list, .courses ul, .list span {
   list-style: none;
-  width: 60%;
+  /* width: 60%; */
+  margin-top: 0px;
+  font-size: 20px;
+  padding: 0px;
 }
 
-.list span {
-  font-size: 20px;
+.list h2 {
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 600px) {

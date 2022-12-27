@@ -41,6 +41,9 @@ function Home() {
             <li> CSE 142 </li>
             <li> CSE 154 </li>
             <li> CSE 163 </li>
+            <li> CSE 142 </li>
+            <li> CSE 154 </li>
+            <li> CSE 163 </li>
           </ul>
         </div>
       </div>
