@@ -5,7 +5,7 @@ import { useState } from 'react';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/esm/Page/TextLayer.css';
 
-function PdfReview() {
+function PdfReview(filename) {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
 
@@ -32,7 +32,7 @@ function PdfReview() {
       </nav>
 
       <Document
-          file='../assets/week1.pdf'
+          file={filename}
           onLoadSuccess={onDocumentLoadSuccess}
       >
           <Page pageNumber={pageNumber} />
