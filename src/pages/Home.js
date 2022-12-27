@@ -69,7 +69,7 @@ function Home() {
             <ul>
               <li>
                 I love photography especially nature landscape and street scenery!
-              The following pictures were caputured from Seattle, WA and San Diego, CA.
+              The following pictures were taken in Seattle, WA and San Diego, CA.
               </li>
               <li> I enjoy traveling with friends </li>
               <li> I like doing yoga at home when I'm stressed.</li>
