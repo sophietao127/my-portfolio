@@ -34,6 +34,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 40px;
 }
 
 .prompt p {
@@ -48,6 +49,7 @@
 
 .prompt img {
   width: fit-content;
+  display: flex;
   height: 300px;
   margin: 10px;
   margin-left: 30px;
@@ -72,15 +74,13 @@
   padding: 10px;
 }
 
-
 .skills h1, .list, .courses, .aboutme {
   color: #502f64;
   margin: 0px;
 }
 
-.list, .courses ul, .list span{
+.list, .list span {
   list-style: none;
-  /* width: 60%; */
   margin-top: 0px;
   font-size: 20px;
   padding: 0px;
@@ -88,7 +88,17 @@
 
 .list h2 {
   margin-bottom: 10px;
+  font-size: 28px;
 }
+
+.courses section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  border: 10px;
+}
+
 
 .aboutme {
   font-size: 20px;
@@ -103,16 +113,32 @@
 .aboutme li {
   padding: 7px;
 }
-.aboutme img {
-  width: fit-content;
-  height: 300px;
-  margin: 10px;
-  margin-left: 30px;
+
+.aboutme section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-@media only screen and (max-width: 600px) {
+.aboutme img {
+  width: 400px;
+  height: 300px;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 800px) {
   .about h2 {
     font-size: 40px;
+  }
+
+  .about .prompt, .aboutme section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutme img {
+    width: fit-content;
   }
 
   .about .prompt {

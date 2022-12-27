@@ -1,7 +1,12 @@
 import React from 'react';
+import DropdownButton from '../components/DropdownButton';
+
 import "../styles/Home.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import myself from '../assets/me.jpg';
 import food from '../assets/food.jpg';
+import dog from '../assets/dog1.jpg';
 import seattle from '../assets/Sea.jpg';
 import sandiego from '../assets/San.jpg';
 
@@ -41,21 +46,26 @@ function Home() {
         </div>
 
         <div className='courses'>
-          <h1> Classes I Have Taken </h1>
-          <ul>
-            <li> CSE 142 </li>
-            <li> CSE 154 </li>
-            <li> CSE 163 </li>
-            <li> CSE 142 </li>
-            <li> CSE 154 </li>
-            <li> CSE 163 </li>
-          </ul>
+          <h1> Classes I Have Taken at UW</h1>
+          <section>
+            <DropdownButton course={'CSE 414'} name={'Database Systems'}/>
+            <DropdownButton course={'EEP 596'} name={'Advanced Topics in Signal and Image Processing'}/>
+            <DropdownButton course={'CSE 333'} name={'Systems Programming'}/>
+            <DropdownButton course={'CSE 417'} name={'Algorithm & Computational Complexity'}/>
+            <DropdownButton course={'EE 598'} name={'Special Topics in Electrical Engineering'}/>
+            <DropdownButton course={'CSE 163'} name={'Intermediate Data Programming'}/>
+            <DropdownButton course={'CSE 373'} name={'Data Structures and Algorithms'}/>
+            <DropdownButton course={'CSE 391'} name={'Software Tools'}/>
+            <DropdownButton course={'EEP 599'} name={'Research in Electrical Engineering'}/>
+            <DropdownButton course={'CSE 142'} name={'Programming language II (Java)'}/>
+            <DropdownButton course={'CSE 154'} name={'Web Programming'}/>
+            <DropdownButton course={'EEP 500'} name={'Graduate Seminar'}/>
+          </section>
         </div>
 
         <div className='aboutme'>
           <h1>Some fun facts about me!</h1>
           <div>
-            <img src={food} alt='bbq food'/>
             <ul>
               <li>
                 I love photography especially nature landscape and street scenery!
@@ -74,6 +84,8 @@ function Home() {
             </ul>
           </div>
           <section>
+            <img src={food} alt='bbq food'/>
+            <img src={dog} alt='dog at UW'/>
             <img src={seattle} alt='Seattle'/>
             <img src={sandiego} alt='San Diego'/>
           </section>
