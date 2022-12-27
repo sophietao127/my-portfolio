@@ -60,7 +60,7 @@
   text-align: center;
 }
 
-.skills, .courses  {
+.skills, .courses, .aboutme  {
   font-size: 30px;
   display: flex;
   justify-content: center;
@@ -73,12 +73,12 @@
 }
 
 
-.skills h1, .list, .courses {
+.skills h1, .list, .courses, .aboutme {
   color: #502f64;
   margin: 0px;
 }
 
-.list, .courses ul, .list span {
+.list, .courses ul, .list span{
   list-style: none;
   /* width: 60%; */
   margin-top: 0px;
@@ -88,6 +88,26 @@
 
 .list h2 {
   margin-bottom: 10px;
+}
+
+.aboutme {
+  font-size: 20px;
+}
+
+.aboutme div {
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+}
+
+.aboutme li {
+  padding: 7px;
+}
+.aboutme img {
+  width: fit-content;
+  height: 300px;
+  margin: 10px;
+  margin-left: 30px;
 }
 
 @media only screen and (max-width: 600px) {
