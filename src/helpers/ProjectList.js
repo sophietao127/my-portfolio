@@ -10,31 +10,37 @@ export const projectList = [
   {
     name: "Social Media Website",
     image: Proj1,
-    skills: "JavaScript, HTML, CSS"
+    skills: "JavaScript, HTML, CSS",
+    time: "Graduate"
   },
   {
     name: "Social 2",
     image: Proj2,
-    skills: "JavaScript, HTML, CSS"
+    skills: "JavaScript, HTML, CSS",
+    time: "Graduate"
   },
   {
     name: "Social 3",
     image: Proj3,
-    skills: "JavaScript, HTML, CSS"
+    skills: "JavaScript, HTML, CSS",
+    time: "Graduate"
   },
   {
     name: "Social 4",
     image: Proj4,
-    skills: "JavaScript, HTML, CSS"
+    skills: "JavaScript, HTML, CSS",
+    time: "Undergraduate"
   },
   {
     name: "Social 5",
     image: Proj5,
-    skills: "JavaScript, HTML, CSS"
+    skills: "JavaScript, HTML, CSS",
+    time: "Undergraduate"
   },
   {
     name: "Social 6",
     image: Proj6,
-    skills: "JavaScript, HTML, CSS"
+    skills: "JavaScript, HTML, CSS",
+    time: "Undergraduate"
   }
 ]

@@ -53,7 +53,14 @@
   margin-left: 30px;
 }
 
-.skills {
+.total {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.skills .courses {
   font-size: 35px;
   width: 100%;
   display: flex;
@@ -62,7 +69,7 @@
   align-items: center;
 }
 
-.skills h1, .list {
+.skills h1, .list, .courses {
   color: #502f64;
 }
 
