@@ -22,12 +22,18 @@
 }
 
 /* MENU ITEM STYLING */
+.each {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 
 .projectItem {
   border-radius: 15px;
   width: 300px;
   height: 300px;
-  margin: 40px;
+  margin-top: 10px;
+  margin-bottom: 30px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
