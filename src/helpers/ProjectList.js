@@ -13,41 +13,53 @@ export const projectList = [
     image: Proj1,
     skills: "JavaScript, HTML, CSS",
     time: "Graduate",
-    report: pdf1
+    report: pdf1,
+    video: "https://www.youtube.com/embed/0_Fmej8eGX0",
+    ppt: "https://docs.google.com/presentation/d/e/2PACX-1vTrTqaDy6DC86H0ZQ3JlJfKJxQ8HVcQ1xSMcTxWCNo1XF2YRGR5V8UCk-ztg7gBNQ/embed?start=false&loop=false&delayms=3000"
   },
   {
     name: "Social 2",
     image: Proj2,
     skills: "JavaScript, HTML, CSS",
     time: "Graduate",
-    report: pdf1
+    report: null,
+    video: null,
+    ppt: null
   },
   {
     name: "Social 3",
     image: Proj3,
     skills: "JavaScript, HTML, CSS",
     time: "Graduate",
-    report: pdf1
+    report: null,
+    video: null,
+    ppt: null
   },
   {
     name: "Social 4",
     image: Proj4,
     skills: "JavaScript, HTML, CSS",
     time: "Undergraduate",
-    report: pdf1
+    report: pdf1,
+    video: null,
+    ppt: null
   },
   {
     name: "Social 5",
     image: Proj5,
     skills: "JavaScript, HTML, CSS",
     time: "Undergraduate",
-    report: pdf1
+    report: pdf1,
+    video: null,
+    ppt: null
   },
   {
     name: "Social 6",
     image: Proj6,
     skills: "JavaScript, HTML, CSS",
     time: "Undergraduate",
-    report: null
+    report: null,
+    video: "https://www.youtube.com/embed/0_Fmej8eGX0",
+    ppt: null
   }
 ]
