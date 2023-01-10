@@ -23,7 +23,11 @@ export const projectList = [
     video: null,
     posterPPT: "https://docs.google.com/presentation/d/e/2PACX-1vQokcEuY3OcbdbNYRRzAD5Zoa3zUvchm3yckgFHwmGn2btIv6Ygi7oz3aehPMbmCQ/embed?start=false&loop=false&delayms=3000",
     posterPDF: null,
-    introduction: "xxxxxxxxxxxxxx"
+    introduction: "This project focuses on object detection in different street scenes, " +
+                  "the targets would be detected including people, animals and transportation. " +
+                  "Training existed dataset: Use COCO dataset based on three different models YOLOv5 network. " +
+                  "Training new dataset: New Datasets created manually by using Makesense.ai. " +
+                  "The detection performance of each model would be observed based on these datasets"
   },
   {
     name: "Web Tool for Testing Airbone Equipment",
@@ -34,7 +38,10 @@ export const projectList = [
     video: "https://www.youtube.com/embed/S3JcjERpU-U",
     posterPPT: "https://docs.google.com/presentation/d/e/2PACX-1vS-vS_E8zdWcuuCwJx66prZ5SgI7yUpPWrTBt3Iz3HdepC_tIEoNaLRMbV23q5MkKvbG9i8xOwpJEbW/embed?start=false&loop=false&delayms=3000",
     posterPDF: null,
-    introduction: "xxxxxxxxxxxxxx"
+    introduction: "This project developed an interactive web app for testing environmental conditions and " +
+                  "airborne equipment procedures, that is titled 'RTCA DO-160G'. DO-160G contains 16 different " +
+                  "sections for testing. This App aims to take this DO-160G from a hardback copy to an interactive application. " +
+                  "The current project focus will be on two sections: Section 4 - Temperature Control and Section 6 - Humidity Control"
   },
   {
     name: "Yipper Website",
