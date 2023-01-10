@@ -15,18 +15,22 @@ function ProjectDisplay() {
   return (
     <div className='project'>
       <h1> {project.name} </h1>
-      <h2> Introduction </h2>
+      <p><b>Skills:</b> {project.skills}</p>
+      <p> {project.introduction} </p>
       {project.report !== null &&
-        <h2><a href={project.report} target="_blank" rel="noreferrer">Project Report</a></h2>
+        <h2>Project Document Link: <a href={project.report} target="_blank" rel="noreferrer">Project Report</a></h2>
       }
+      <p>Project Poster</p>
+      {project.posterPPT !== null &&
+        <iframe src={project.posterPPT} frameborder="0" width="950" height="570" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" title={project.name}></iframe>
+      }
+      {project.posterPDF !== null &&
+        <embed src={project.posterPDF} width="920px" height="1200px" />
+      }
+      <p>Demo Video</p>
       {project.video !== null &&
         <iframe width="660" height="480" src={project.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
       }
-      <p><b>Skills:</b> {project.skills}</p>
-      {project.ppt !== null &&
-        <iframe src={project.ppt} frameborder="0" width="950" height="570" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" title={project.name}></iframe>
-      }
-
     </div>
   )
 }

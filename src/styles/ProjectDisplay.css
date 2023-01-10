@@ -13,6 +13,7 @@
   color: #502f64;
   font-size: 45px;
 }
+
 .project img {
   width: 700px;
   height: 500px;
@@ -20,8 +21,15 @@
 }
 
 .project h2, .project p {
-  font-size: 25px;
-  color: #502f64;;
+  font-size: 20px;
+  color: #502f64;
+  text-align: center;
+}
+
+.project p {
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .project svg {
@@ -29,7 +37,7 @@
   color: #502f64;;
 }
 
-.pdf {
+/* .pdf {
   width: 600px;
   height: 150vh;
   text-align: center;
@@ -40,7 +48,7 @@
   font-size: 18px;
   color: black;
   margin-bottom: 5px;
-}
+} */
 
 .hidden {
   display: none;
