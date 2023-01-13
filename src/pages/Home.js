@@ -17,8 +17,8 @@ function Home() {
         <h2> Hi, My Name is Sophie! </h2>
         <div className='prompt'>
           <div>
-            <p> I am currently a master's student at UW in the Electrical and Computer Program
-              with a passion for learning and creating!
+            <p> I am currently a master's student at UW in the Electrical and Computer Engineering Program
+                with a passion for learning and creating!
             </p>
           </div>
           <img src={myself} alt='myself'/>
@@ -49,7 +49,7 @@ function Home() {
           <h1> Classes I Have Taken at UW</h1>
           <section>
             <DropdownButton course={'CSE 414'} name={'Database Systems'}/>
-            <DropdownButton course={'EEP 596'} name={'Advanced Topics in Signal and Image Processing'}/>
+            <DropdownButton course={'EEP 596A'} name={'Advanced Topics in Signal and Image Processing'}/>
             <DropdownButton course={'CSE 333'} name={'Systems Programming'}/>
             <DropdownButton course={'CSE 417'} name={'Algorithm & Computational Complexity'}/>
             <DropdownButton course={'EE 598'} name={'Special Topics in Electrical Engineering'}/>
@@ -60,6 +60,7 @@ function Home() {
             <DropdownButton course={'CSE 142'} name={'Programming language II (Java)'}/>
             <DropdownButton course={'CSE 154'} name={'Web Programming'}/>
             <DropdownButton course={'EEP 500'} name={'Graduate Seminar'}/>
+            <DropdownButton course={'EEP 596B'} name={'Advanced Machine Learning'}/>
           </section>
         </div>
 
